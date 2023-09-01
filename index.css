@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 5 px;
+}
+
+.MyWebPage * {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 238, 225);
+
+}
+
+#MyWebPage {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+h1 {
+    color: #320136;
+}
+
+#notes-input {
+    background-color: #82098d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#note-dropdown * {
+    width: 100%;
+}
+
+#MyWebPage label {
+    background-color: #34058a;
+    color: antiquewhite;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#todoInput {
+    width: 200px;
+
+}
+
+#note-dropdown option {
+    background-color: #e7ccf3;
+    cursor: pointer;
+
+}
+
+.My-notes-container {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+
+#note-dropdown {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: flex-start;
+
+}
+
+
+#note-dropdown label {
+    margin-top: 8px;
+}
+
+
+.todo-container {
+    background-color: rgb(74, 155, 37);
+    grid-row: span 4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#To-dos {
+    color: #887092;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+#notes-todos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px
+}
+
+.close {
+    cursor: pointer;
+    background-color: #eb806e;
+    border-radius: 20px;
+    padding: 8px
+}
+
+#app {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: antiquewhite;
+
+}
+.single-todo {
+    display: flex;
+    gap: 15px;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+#PopUp {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}

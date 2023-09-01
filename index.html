@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div id="MyWebPage">
+
+        <!-- Header Section -->
+        <header>
+            <h1>Welcome to My Note Taking App</h1>
+        </header>
+
+        <div class="Motivation-container">
+            <h2>Let's Get Organized! </h2>
+
+        </div>
+
+
+
+        <div id="notes-todos">
+            <form id="note-dropdown">
+                <label for="category">Type of Notes</label>
+                <select id="inputOptions" name="Category">
+                    <option value="Meetings & Presentations">Meetings & Presentations</option>
+                    <option value="With Due dates">With Due dates</option>
+                    <option value="Reflection Notes">Reflection Notes</option>
+                    <option value="Projects">Projects</option>
+                </select>
+
+                <label for="type">Priority Level</label>
+                <select id="inputOptions2" name="type">
+
+                    <option value="Requires Urgent Attention">Requires Urgent Attention</option>
+                    <option value="Requires Intermediate Action">Requires Intermediate Action</option>
+                    <option value="To-Dos later">To-Dos later</option>
+                    <option value="Pending Deletion">Pending Deletion</option>
+
+                </select>
+
+                <label for="notes-text">Text</label>
+                <textarea id="input-text" wrap="soft" cols="30" rows="5"></textarea>
+                <button id="notes-input" type="submit"> Save this Note</button>
+            </form>
+
+            <div id="To-dos">
+
+                <h2>To Dos:</h2>
+                <form id="to-do-form">
+                    <input id="todoInput" type="text" placeholder=" Enter your task here">
+                    <button type="submit">Save Tasks</button>
+                </form>
+
+
+                <ul id="todo-container">
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="My-notes">
+
+            <ul class="My-notes-container">
+
+            </ul>
+        </div>
+
+
+
+       
+        <footer>
+            &copy; 2023 Verified, Trusted By The Best. All rights reserved.
+        </footer>
+    </div> <!-- End of Main Container -->
+
+</body>
+
+
+</html>
